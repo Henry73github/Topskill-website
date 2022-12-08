@@ -761,7 +761,7 @@ footer .copyright {
 
 /* MEDIA QUERIES (PHONES) */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
    h1 {
     font-size: 2.2rem;
    }
@@ -836,11 +836,11 @@ footer .copyright {
 
    /* LOADING SECTION */
    section.landing {
-    margin-top: -4rem;
+    margin-top: 2rem;
     padding-bottom: 7rem;
     max-width: 100vw;
     overflow-x: hidden;
-    width: 90%;
+    width: 100%;
    }
 
    section.landing .container {
@@ -849,6 +849,7 @@ footer .copyright {
     text-align: center;
     row-gap: 6rem;
     width: 90%;
+    justify-content: center;
    }
 
    section.landing .container .socials {
@@ -916,6 +917,10 @@ footer .copyright {
       gap: 0.1rem;
       text-align: center;
       justify-content: center;
+   }
+  
+  section.about p {
+      margin-top: 2rem;
    }
 
    section.about img {
